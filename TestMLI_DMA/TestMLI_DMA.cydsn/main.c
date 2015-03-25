@@ -13,6 +13,7 @@
 
 #define TABLE_LENGTH 254
 
+
 volatile uint8 ramtable[TABLE_LENGTH];
 
 CYCODE const uint8 sinus_table[TABLE_LENGTH] = {0x80,0x83,0x86,0x89,0x8c,0x8f,0x92,0x95,
